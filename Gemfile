@@ -16,6 +16,7 @@ gem "bootsnap", ">= 1.1.0", require: false
 gem "i18n"
 gem "i18n-js"
 gem "config"
+gem "bcrypt"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
