@@ -5,7 +5,10 @@ railstutorial_book: "https://www.railstutorial.org/book"
 screencasts: "http://screencasts.railstutorial.org/"
 contactpage: "https://www.railstutorial.org/contact"
 rubyonrails: "http://rubyonrails.org/"
+gravataremail: "http://gravatar.com/emails"
 MAX_NAME_LENGTH: 50
 MAX_EMAIL_LENGTH: 255
 MIN_PASS: 6
 gravatar_size: 50
+page: 10
+gravatar_for_user: 80
