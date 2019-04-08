@@ -1,13 +1,13 @@
-<% provide(:title, t(".about")) %>
-<h1><%= t".about" %></h1>
+<% provide :title, t(".about") %>
+<h1><%= t ".about" %></h1>
 <p>
-  <%= t".the" %>
+  <%= t ".the" %>
   <%= link_to Settings.railstutorial do %>
         <i> <%= t(".rails_tutorial") %></i><% end %>
-  <%= t".is a" %>
-  <%= link_to t(".book"), Settings.railstutorial_book %> <%= t".and" %>
+  <%= t ".is a" %>
+  <%= link_to t(".book"), Settings.railstutorial_book %> <%= t ".and" %>
   <%= link_to t(".screencast series"), Settings.screencasts %>
-  <%= t".to teach web development with" %>
+  <%= t ".to teach web development with" %>
   <%= link_to t(".Ruby on Rails"), Settings.railstutorial %>.
-   <%= t".This is the sample application for the tutorial" %>.
+   <%= t ".This is the sample application for the tutorial" %>.
 </p>
