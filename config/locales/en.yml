@@ -30,4 +30,53 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  layouts:
+    footer:
+      about: "About"
+      contact: "Contact"
+      rails_tutorial: "Ruby on Rails Tutorial"
+      the: "The"
+      by: "by"
+      news: "News"
+      michael_hartl: "Michael Hartl"
+    header:
+      home: "Home"
+      help: "Help"
+      log_in: "Log in"
+      sample_app: "sample app"
+    application:
+      Ruby_on_Rails_Tutorial_Sample_App: "Ruby on Rails Tutorial Sample Apppppp"
+  static_pages:
+    about:
+      about: "About"
+      the: "The"
+    home:
+      welcome_to_the_Sample_App: "Welcome to the Sample App"
+      This is the home page for the: "This is the home page for the"
+      rails_tutorial: "Ruby on Rails Tutorial"
+      sample_application: "sample application."
+      Sign_up: "Sign up now!"
+    help:
+      help: "Help"
+      rails_tutorial: "Ruby on Rails Tutorial"
+      get_help: "Get help on the Ruby on Rails Tutorial at the"
+      To_get_help: "To get help on this sample app, see the"
+      Ruby on Rails Tutorial: "Ruby on Rails Tutorial"
+      book: "book"
+    new:
+      Sign up: "Sign up"
+      This will be a signup page for new users: "This will be a signup page for new users."
+    about:
+      about: "About"
+      rails_tutorial: "Ruby on Rails Tutorial"
+      is a: "is a"
+      book: "book"
+      and: "and"
+      screencast series: "screencast series"
+      to teach web development with: "to teach web development with"
+      Ruby on Rails: "Ruby on Rails"
+      This is the sample application for the tutorial: "This is the sample application for the tutorial"
+    contact:
+      contact: "Contact"
+      Contact the: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact page: "contact page"
