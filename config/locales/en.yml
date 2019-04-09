@@ -108,6 +108,7 @@ en:
       not_found: "Not found"
     create:
       welcome_to: "Welcome to the Sample App!"
+      please_check: "Please check your email to activate your account."
     show:
       not_found: "Not found"
     update:
@@ -118,3 +119,16 @@ en:
     destroy:
       user_deleted: "User deleted"
       delete_unsuccessful: "Delete unsuccessful"
+  account_activations:
+    edit:
+      account_activated: "Account activated!"
+      invalid_activation: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      sample_app: "Sample App"
+      hi: "Hi"
+      welcome_to: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+      account_activation: "Account activation"
+    password_reset:
+      hi: "Hi"
