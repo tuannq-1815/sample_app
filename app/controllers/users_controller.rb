@@ -51,8 +51,8 @@
   def find_user
     @user = User.find params[:id]
     return if @user
-     flash[:error] = t ".not_found"
-     redirect_to root_path
+    flash[:error] = t ".not_found"
+    redirect_to root_path
   end
 
   def user_params
