@@ -56,6 +56,7 @@ en:
       log_in: "Log in"
       new_user: "New user?"
       sign_up_now: "Sign up now!"
+      remember_me: "Remember me on this computer"
     create:
       invalid_email: "Invalid email/password combination"
   static_pages:
