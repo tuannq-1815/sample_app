@@ -44,8 +44,20 @@ en:
       help: "Help"
       log_in: "Log in"
       sample_app: "sample app"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      log_out: "Log out"
     application:
       Ruby_on_Rails_Tutorial_Sample_App: "Ruby on Rails Tutorial Sample Apppppp"
+  sessions:
+    new:
+      log_in: "Log in"
+      new_user: "New user?"
+      sign_up_now: "Sign up now!"
+    create:
+      invalid_email: "Invalid email/password combination"
   static_pages:
     about:
       about: "About"
@@ -80,3 +92,9 @@ en:
       contact: "Contact"
       Contact the: "Contact the Ruby on Rails Tutorial about the sample app at the"
       contact page: "contact page"
+  users:
+    new:
+      sign_up: "Sign up"
+      confirmation: "Confirmation"
+      create_my: "Create my account"
+
