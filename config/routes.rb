@@ -8,9 +8,12 @@ Rails.application.routes.draw do
   get "/login", to: "sessions#new"
   get "password_resets/new"
   get "password_resets/edit"
+  get "password_resets/new"
+  get "password_resets/edit"
   post "/login", to: "sessions#create"
   delete "/logout", to: "sessions#destroy"
   resources :users
   resources :account_activations, only: %i(edit)
   resources :password_resets, only: %i(new create edit update)
+  resources :microposts, only: %i(create destroy)
 end
