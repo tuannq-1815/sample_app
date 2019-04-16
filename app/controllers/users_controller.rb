@@ -16,9 +16,11 @@
 
   def create
     @user = User.new user_params
+
     if @user.save
-      flash[:success] = t ".welcome_to"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t ".please_check"
+      redirect_to root_url
     else
       render :new
     end
@@ -59,8 +61,8 @@
   end
 
   def logged_in_user
-    return if logged_in?
     store_location
+    return if logged_in?
     flash[:danger] = t ".please_log_in"
     redirect_to login_url
   end
