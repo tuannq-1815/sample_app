@@ -57,6 +57,7 @@ en:
       new_user: "New user?"
       sign_up_now: "Sign up now!"
       remember_me: "Remember me on this computer"
+      forgot_password: "forgot password"
     create:
       invalid_email: "Invalid email/password combination"
   static_pages:
@@ -109,6 +110,9 @@ en:
     create:
       welcome_to: "Welcome to the Sample App!"
       please_check: "Please check your email to activate your account."
+    create:
+      welcome_to: "Welcome to the Sample App!"
+      please_check: "Please check your email to activate your account."
     show:
       not_found: "Not found"
     update:
@@ -132,3 +136,24 @@ en:
       account_activation: "Account activation"
     password_reset:
       hi: "Hi"
+      password_reset: "Password reset"
+  password_resets:
+    new:
+      forgot_password: "Forgot password"
+      submit: "Submit"
+    create:
+      email_sent: "Email sent with password reset instructions"
+      email_address: "Email address not found"
+    edit:
+      reset_password: "Reset password"
+      update_password: "Update password"
+    update:
+      password_has: "Password has been reset."
+      cant_be: "can't be empty"
+    check_expiration:
+      password_reset_has_expired:  "Password reset has expired."
+    get_user:
+      not_found: "Not found"
+  user_mailer:
+    password_reset:
+      password_reset: "Password reset"
