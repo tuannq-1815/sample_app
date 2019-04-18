@@ -12,7 +12,9 @@
     @user = User.new
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.page(params[:page]).per Settings.page
+  end
 
   def create
     @user = User.new user_params
@@ -67,11 +69,11 @@
     redirect_to login_url
   end
 
-  def admin_user
-    redirect_to(root_url) unless current_user.admin?
-  end
-
   def correct_user
     redirect_to(root_url) unless current_user?(@user)
+  end
+
+  def admin_user
+    redirect_to(root_url) unless current_user.admin?
   end
 end

@@ -1,35 +1,6 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
+  maximum_file: "Maximum file size is 5MB. Please choose a smaller file."
+  should_be: "should be less than 5MB"
   layouts:
     footer:
       about: "About"
@@ -70,6 +41,7 @@ en:
       rails_tutorial: "Ruby on Rails Tutorial"
       sample_application: "sample application."
       Sign_up: "Sign up now!"
+      micropost_feed: "Micropost Feed"
     help:
       help: "Help"
       rails_tutorial: "Ruby on Rails Tutorial"
@@ -115,6 +87,7 @@ en:
       please_check: "Please check your email to activate your account."
     show:
       not_found: "Not found"
+      microposts: "Microposts"
     update:
       profile_updated: "Profile updatedddd"
     index:
@@ -157,3 +130,28 @@ en:
   user_mailer:
     password_reset:
       password_reset: "Password reset"
+  microposts:
+    microposts:
+      posted: "Posted"
+      ago: "ago."
+      delete: "delete"
+      you_sure: "You sure?"
+    create:
+      micropost_created: "Micropost created!"
+    destroy:
+      micropost_deleted: "Micropost deleted"
+      delete_unsuccessful: "Delete unsuccessful!"
+    correct_user:
+      success: "Success!"
+  logged_in_user:
+    please_log_in: "Please log in."
+  shared:
+    error_messages:
+      the_form: "The form"
+      error: "error"
+    micropost_form:
+      compose_new_micropost: "Compose new micropost..."
+      post: "Post"
+    user_info:
+      view_my_profile: "view my profile"
+      micropost: "micropost"
